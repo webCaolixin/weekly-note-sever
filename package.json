@@ -1,0 +1,45 @@
+{
+  "name": "sunflower-note-server",
+  "version": "1.0.0",
+  "description": "sunflower-note-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunInfoFE/sunflower-note-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunInfoFE/sunflower-note-server/issues"
+  },
+  "homepage": "https://github.com/SunInfoFE/sunflower-note-server#readme",
+  "dependencies": {
+    "curl": "^0.1.4",
+    "ejs": "^2.5.7",
+    "eslint": "^4.18.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-generic-session": "^2.0.1",
+    "koa-mysql-session": "0.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "koa2-cors": "^2.0.5",
+    "log4js": "^2.5.3",
+    "md5": "^2.2.1",
+    "moment": "^2.20.1",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.3",
+    "supervisor": "^0.12.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
